@@ -1,9 +1,9 @@
+from typing import Optional, List
+
+
 class Cargo:
     def __init__(self, weight: int) -> None:
         self.weight = weight
-
-
-from typing import Optional, List
 
 
 class BaseRobot:
